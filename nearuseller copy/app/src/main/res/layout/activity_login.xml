@@ -1,0 +1,94 @@
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/aaaaaa"
+    android:gravity="center"
+    android:padding="15dp"
+    tools:context=".Login">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:baselineAligned="false"
+        android:text="Hey Seller!!"
+        android:textAlignment="center"
+        android:textColor="#FF9800"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/registertextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:baselineAligned="false"
+        android:text="Sign in"
+        android:textAlignment="center"
+        android:textColor="#009688"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:baselineAligned="false"
+        android:hint="Enter Email...."
+        android:textColor="@color/lavender"
+        android:textColorHint="@color/lavender"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:padding="20dp"
+        android:baselineAligned="false"
+        android:hint="Enter Password..."
+        android:inputType="textPassword"
+        android:textColorHint="@color/lavender"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <ProgressBar
+        android:id="@+id/pbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/signuptextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:baselineAligned="false"
+        android:padding="5dp"
+        android:text="register?"
+        android:textAlignment="textEnd"
+        android:textColor="#009688"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/registerbutton"
+        android:layout_width="122dp"
+        android:layout_height="66dp"
+        android:background="@drawable/lavender_boarder"
+        android:src="@drawable/baseline_done_outline_24"
+        android:text="Done ✅"
+        android:textColor="#009688"
+        android:textSize="30dp" />
+
+
+</LinearLayout>
+

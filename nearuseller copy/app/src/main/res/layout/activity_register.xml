@@ -1,0 +1,165 @@
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aaaaaa"
+    android:gravity="center"
+    android:padding="15dp"
+    tools:context=".register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/registertextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:baselineAligned="false"
+            android:text="Register"
+            android:textAlignment="center"
+            android:textColor="#009688"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="228dp"
+            android:layout_height="168dp"
+            android:src="@drawable/m4"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="kindly upload landscape image!!"
+            android:textSize="18dp"/>
+
+        <EditText
+            android:id="@+id/name"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:baselineAligned="false"
+            android:hint="Enter Sellername..."
+            android:textColor="@color/lavender"
+            android:textColorHint="@color/lavender"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+        <EditText
+            android:id="@+id/mobile"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:baselineAligned="false"
+            android:hint="Enter Mobile No..."
+            android:textColor="@color/lavender"
+            android:textColorHint="@color/lavender"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+        <EditText
+            android:id="@+id/whatsapp"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:baselineAligned="false"
+            android:hint="Enter Whatsapp No..."
+            android:textColor="@color/lavender"
+            android:textColorHint="@color/lavender"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+        <EditText
+            android:id="@+id/email"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:baselineAligned="false"
+            android:hint="Enter Email..."
+            android:textColor="@color/lavender"
+            android:textColorHint="@color/lavender"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:padding="20dp"
+            android:baselineAligned="false"
+            android:hint="Enter Password..."
+            android:inputType="textPassword"
+            android:textColorHint="@color/lavender"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+        <EditText
+            android:id="@+id/address"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:baselineAligned="false"
+            android:hint="Enter Address..."
+            android:textColor="@color/lavender"
+            android:textColorHint="@color/lavender"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+        <EditText
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:padding="20dp"
+            android:baselineAligned="false"
+            android:hint="Enter City..."
+            android:textColor="@color/lavender"
+            android:textColorHint="@color/lavender"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+
+        <ProgressBar
+            android:id="@+id/pbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/signuptextView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:baselineAligned="false"
+            android:padding="5dp"
+            android:text="sign up?"
+            android:textAlignment="textEnd"
+            android:textColor="#009688"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/registerbutton"
+            android:layout_width="122dp"
+            android:layout_height="66dp"
+            android:background="@drawable/lavender_boarder"
+            android:src="@drawable/baseline_done_outline_24"
+            android:text="Done ✅"
+            android:textColor="#009688"
+            android:layout_gravity="center"
+            android:layout_marginBottom="90dp"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+</ScrollView>
+

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Near U</string>
+    <string name="price">Price</string>
+
+        <string name="heading_one">Welcome to Near-U!!</string>
+        <string name="heading_two">Explore Your Near-by Stores</string>
+        <string name="heading_three">Choose In-Store Pick-ups</string>
+        <string name="heading_fourth">Request For Delivery</string>
+        <string name="desc_one">"\"Find Your Favourite Styles With Us , Discover Near-U App And Make Your Shopping Among The Multitude Of Articles Here"\"</string>
+        <string name="desc_two">"\"It's Not About The Brand , It's About The Style\""</string>
+        <string name="desc_three">"\"Find Best Shopping Stores Among Your City And Visit The One Which Has Best Collection"\"</string>
+        <string name="desc_fourth">"\"Probable The Fastest Shopping App , In the World "\"</string>
+
+</resources>
